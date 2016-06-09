@@ -1,0 +1,15 @@
+{
+    "name": "Debug Stdin",
+    "id": "debug_stdin",
+    "description": {
+        "en": "DON'T INSTALL THIS ITS USELESS AND FOR TESTING A BUG"
+    },
+    "license": "GPL-3+",
+    "maintainer": {
+        "name": "bram",
+        "email": "cortex@worlddomination.be",
+        "url": "http://worlddomination.be"
+    },
+    "multi_instance": "false",
+    "arguments": {}
+}
