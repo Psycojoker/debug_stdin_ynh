@@ -1,0 +1,12 @@
+set -e
+
+sudo rm -rf /tmp/dev_stdin
+sudo mkdir -p /tmp/debug_stdin
+
+sudo cp buggy.py /tmp/debug_stdin
+
+cd /tmp/debug_stdin
+
+sudo virtualenv ve --system-site-packages
+sudo ve/bin/pip install -r pexpect
+sudo ve/bin/python buggy.py
